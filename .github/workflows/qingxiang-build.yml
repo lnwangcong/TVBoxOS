@@ -54,7 +54,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: QingXiangTV-WE30Pro-java32-v0.3.1
+          name: QingXiangTV-WE30Pro-java32-v0.3.2
           path: app/build/outputs/apk/java32/debug/*.apk
           if-no-files-found: error
           retention-days: 14
