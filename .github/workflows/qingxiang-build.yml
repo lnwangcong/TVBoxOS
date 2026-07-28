@@ -1,4 +1,5 @@
 name: Build QingXiang TV APK
+# Source patch: v0.3.2
 
 on:
   workflow_dispatch:
