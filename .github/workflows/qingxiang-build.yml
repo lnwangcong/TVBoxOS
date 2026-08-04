@@ -1,5 +1,5 @@
 name: Build QingXiang TV APK
-# Source patch: v0.3.4
+# Source patch: v0.3.6
 
 on:
   workflow_dispatch:
@@ -55,7 +55,7 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: QingXiangTV-WE30Pro-java32-v0.3.4
+          name: QingXiangTV-WE30Pro-java32-v0.3.6
           path: app/build/outputs/apk/java32/debug/*.apk
           if-no-files-found: error
           retention-days: 14
